@@ -19,10 +19,11 @@ h6 {
 }
 
 a {
-  color: darken($theme-color, 15%);
+  color: $text-color; //darken($theme-color, 15%)
+  font-weight: 100;
   &:hover {
     text-decoration: underline;
-    color: darken($theme-color, 30%);
+    color: lighten($theme-color, 0%);
   }
   &:focus {
     text-decoration: none;
@@ -46,26 +47,33 @@ p {
 .sidebar-wrapper {
   grid-column: span 3;
   order: 2;
-  background: $theme-color;
-  color: #fff;
+  border-left: 2px solid lighten($theme-color, 10%);
+  background: #fff; //$theme-color
+  color: darken($theme-color, 10%);
   a {
-    color: #fff;
+    color: $text-color;
+    font-weight: 500;
+    &:hover {
+      text-decoration: underline;
+      color: lighten($theme-color, 0%);
+    }
   }
   .profile-container {
     padding: 30px;
-    //background: darken($theme-color, 10%);
-    background: rgba(0, 0, 0, 0.2);
+    // background: darken($theme-color, 10%);
+    background: #fff; //rgba(0, 0, 0, 0.2)
     text-align: center;
-    color: #fff;
+    color: #000;
   }
   .name {
+    color: darken($theme-color, 5%);
     font-size: 32px;
     font-weight: 900;
     margin-top: 0;
     margin-bottom: 10px;
   }
   .tagline {
-    color: rgba(256, 256, 256, 0.6);
+    color: $text-color; //rgba(256, 256, 256, 0.6)
     font-size: 16px;
     font-weight: 400;
     margin-top: 0;
@@ -102,6 +110,7 @@ p {
     padding: 30px;
   }
   .container-block-title {
+    color: darken($theme-color, 5%);
     text-transform: uppercase;
     font-size: 16px;
     font-weight: 700;
@@ -109,7 +118,8 @@ p {
     margin-bottom: 15px;
   }
   .degree {
-    font-size: 14px;
+    color: $text-color;
+    font-size: 13.5px;
     margin-top: 0;
     margin-bottom: 5px;
   }
@@ -121,25 +131,26 @@ p {
       }
     }
     .meta {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-color; //rgba(256, 256, 256, 0.6)
       font-weight: 500;
       margin-bottom: 0px;
       margin-top: 0;
     }
     .time {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-color; //rgba(256, 256, 256, 0.6)
       font-weight: 500;
       margin-bottom: 0px;
     }
   }
   .languages-container {
     .lang-desc {
-      color: rgba(256, 256, 256, 0.6);
+      color: $text-color; //rgba(256, 256, 256, 0.6)
     }
   }
 
   .languages-list {
     margin-bottom: 0;
+    color: $text-color;
     li {
       margin-bottom: 10px;
       &:last-child {
@@ -150,6 +161,7 @@ p {
 
   .interests-list {
     margin-bottom: 0;
+    color: $text-color;
     li {
       margin-bottom: 10px;
       &:last-child {
@@ -167,7 +179,7 @@ p {
     text-transform: uppercase;
     font-size: 30px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    color: darken($theme-color, 10%);
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -176,7 +188,7 @@ p {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: darken($theme-color, 15%);
+    color: darken($theme-color, 5%);
     position: relative;
     margin-top: 0;
     margin-bottom: 20px;
@@ -196,7 +208,11 @@ p {
     overflow: hidden;
     margin-bottom: 2px;
   }
-  .job-title,
+  .job-title{
+    font-size:16px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
   .degree {
     color: $text-color;
     font-size: 16px;
