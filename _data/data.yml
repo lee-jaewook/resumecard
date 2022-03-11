@@ -92,43 +92,27 @@ education:
       details: |
 
 experiences:
-    - role: 
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Undergraduate Research Assistant
+      time: 2021년 12월 - Present
+      company: ML Lab, Pohang University of Science and Technology
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+        - 지도 교수 : [안성수 교수님](https://sites.google.com/view/sungsooahn0215/home)
+        - 기술 스택 : <mark>Python</mark> <mark>Pytorch</mark> <mark>tensorflow</mark>
+        - 연구 분야 
+          - Machine Learning
+          - Graph Neural Network
+          - Drug discovery
+    - role: Undergraduate Research Assistant
+      time: 2019년 12월 - 2020년 11월
+      company: AI&SE Lab, Jeonbuk National University
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
-      company: Amazon, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+        - 지도 교수 : [류덕산 교수님](https://sites.google.com/view/aiselabjbnu)
+        - 기술 스택 : <mark>Python</mark> <mark>Java</mark> <mark>Pytorch</mark> <mark>tensorflow</mark>
+        - 연구 분야 
+          - Machine Learning
+          - Recommendation 
+          - Software Defect Prediction
+
 projects:
     title: Projects
     intro: >
