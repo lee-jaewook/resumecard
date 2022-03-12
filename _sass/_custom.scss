@@ -68,6 +68,6 @@ mark {
   
     color: $text-color;
 
-    border-radius: map-get($base, border-radius);
+    border-radius: map-get($base, border-radius-lg);
   
   }
