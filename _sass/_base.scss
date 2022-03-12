@@ -19,10 +19,10 @@ h6 {
 
 a {
   color: $text-color; //darken($theme-color, 15%)
-  font-weight: 100;
+  font-weight: 600;
   &:hover {
     text-decoration: underline;
-    color: darken($theme-color, 30%);
+    color: darken($theme-color, 0%);
     font-weight: 700;
   }
   &:focus {
