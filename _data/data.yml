@@ -86,7 +86,7 @@ career-profile:
       - 항상 [`애자일 4대 선언 및 12가지 원칙`](https://agilemanifesto.org/iso/ko/manifesto.html)에 따라 개발하고자 노력합니다. 
 
 education:
-    - degree: BEng in Softwar Engineering
+    - degree: BEng in Software Engineering
       university: Jeonbuk National University
       time: 2016 - 2022
       details: |
@@ -115,30 +115,47 @@ experiences:
 
 projects:
     title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    intro: 
+
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "<mark>MySQL</mark> A responsive website template designed to help startups promote, market and sell their products."
+      - title: BECS ITRC 학생주도 창의 자율 프로젝트
+        link: 
+        tagline: |
+          - 프로젝트 요약 : GAN을 이용한 엣지 컴퓨팅 서비스 품질 예측 모델 개발
+          - 기술 스택 : <mark>Python</mark> <mark>Tensorflow</mark> <mark>GAN</mark>
+          - 실적 : [저널 출간, Title: GAIN-QoS: A Novel QoS Prediction Model for Edge Computing](https://journals.riverpublishers.com/index.php/JWE/article/view/12513)
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: SIGNATURE(SIGN All transactions Using Voice REcord)
+        link: "https://github.com/lee-jaewook/SIGNATURE"
+        tagline: |
+          - 프로젝트 요약 : 블록체인 기반 구두계약 지원 시스템
+          - 기술 스택 : <mark>Node.js</mark> <mark>Vue.js</mark> <mark>Docker</mark> <mark>Blockchain</mark> <mark>Blockchain</mark>
+          - 수상 : 우수 논문상(동상)
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: 주택 가격 예측
+        link: "https://github.com/lee-jaewook/2021_ai_project_house_price_prediction"
+        tagline: |
+          - 프로젝트 요약 : 서울 주택 가격 예측 모델 개발
+          - 기술 스택 : <mark>Python</mark> <mark>Tensorflow</mark> <mark>Sklearn</mark>
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Brr(보르르)
+        link: "https://github.com/lee-jaewook/Brr"
+        tagline: |
+          - 프로젝트 요약 : 청각장애인용 이름 인식 손목 진동 호출기 및 애플리케이션
+          - 기술 스택 : <mark>Android</mark> <mark>Arduino</mark> <mark>Bluetooth</mark> <mark>Azure</mark>
+          - 수상 : ICT 장애인 보조공학기기 공모전 우수상(3위)
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: ING(Incorrect Note Generator)
+        link: "https://github.com/lee-jaewook/Incorrect-Note-Generator"
+        tagline: |
+          - 프로젝트 요약 : 오답노트 기능의 웹사이트
+          - 기술 스택 : <mark>HTML&CSS</mark> <mark>Javascript</mark> <mark>MySQL</mark> <mark>Spring</mark> <mark>Hibernate</mark>
+
+      - title: SAT(Smart Arduino Trash bin)
+        link: "https://github.com/lee-jaewook/SAT"
+        tagline:  |
+          - 프로젝트 요약 : 스마트 쓰레기통
+          - 기술 스택 : <mark>Arduino</mark>
 
 honors:
     title: Awards
@@ -149,45 +166,84 @@ honors:
       - title: Jul 21, Excellence Paper Award, Korea Computer Congress 2021
         link:
       
-      - title: Jun 21, Bronze Paper Award, Korea Software Congress 2021
+      - title: Jun 21, Best Paper Award, Korea Computer Congress 2021
         link:
 
-      - title: Fed 22, Bronze Paper Award, Korea Software Congress 2021
+      - title: Dec 20, Best Paper Award, Korea Software Congress 2020 
         link:
 
-      - title: Fed 22, Bronze Paper Award, Korea Software Congress 2021
+      - title: Dec 20, Excellence Award, ICT Assistive technology device Contest for Disabled Person, Hosted by Ministry of Employment and Labor
         link:
 
-      - title: Fed 22, Bronze Paper Award, Korea Software Congress 2021
+      - title: Dec 20, Bronze Award, The Eighth International Students Joint Capstone Project(i-CAPS) Competition
         link:
 
-      - title: Fed 22, Bronze Paper Award, Korea Software Congress 2021
+      - title: Fed 20, Academic Excellence Award, Jeonbuk National University
         link:
 
-      - title: Jul 21, Excellence Paper Award, Korea Computer Congress 2021
+      - title: Feb 20, Bronze Award, The Fifteenth International Students Multidisciplinary Design Camp, ES Contest 
         link:
 
 publications:
     title: Papers
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+      <b>IJ</b> International Journal, <b>DJ</b> Domestic Journal, <b>IC</b> International Conference, <b>DC</b> Domestic Conference, <b>IW</b> International Workshop, <b>DW</b> Domestic Workshop  
+      <b>Total : 11 - IJ : 1, DJ : 2, IC : 0, DC : 7, IW : 1, DW : 0</b>
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "[IJ-01] GAIN-QoS &#58; A Novel QoS Prediction Model for Edge Computing"
+        link: "https://journals.riverpublishers.com/index.php/JWE/article/view/12513"
+        authors: jiwon Choi, <b>Jaewook Lee</b>, Duksan Ryu and Jongmoon Baik
+        conference: "Journal of Web Engineering (JWE 2022), Vol 21 Iss 1"
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "[IW-01] QoS Prediction based on the Distance Between User and Server Nodes in Edge Computing"
+        link: "https://journals.riverpublishers.com/index.php/JWE/article/view/12513"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Jongmoon Baik
+        conference: "International Workshop on Big data driven Edge Cloud Services (BECS 2021)"
 
-      - title: A syntax directed compiler for Algol 60
+      - title: ”[DJ-02] X-MOCNN &#58; Multi-Output Convolutional Neural Network forConsistent Software Defect Analysis”
         link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Suntae Kim
+        conference: "KIISE Transactions on Computing Practices (KTCP 2022)"
+
+      - title: ”[DC-07] TabNet based Software Defect Prediction”
+        link: "#"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Suntae Kim
+        conference: "Korea Science Congress (KSC 2021)"
+
+      - title: ”[DC-06] Software Defect Prediction with AutoML”
+        link: "#"
+        authors: jiwon Choi, <b>Jaewook Lee</b>, Duksan Ryu and Suntae Kim
+        conference: "Korea Science Congress (KSC 2021)"
+
+      - title: ”[DJ-01] A Comparative Study of Generative Adversarial Network Models for Improving Software Defect Prediction Performance””
+        link: "#"
+        authors: jiwon Choi, <b>Jaewook Lee</b>, Duksan Ryu and Suntae Kim
+        conference: "Journal of Korean Institute of Information Scientists and Engineers (JOK 2021)"
+
+      - title: ”[DC-05] SIGNATURE &#58; Blockchain-Based System For Verval Contract”
+        link: "#"
+        authors: Junghun Lee, <b>Jaewook Lee</b>, Wonbae Kim, Junghyu Lee, Suntae Kim, and Cheoljung Yoo
+        conference: "2021 KIIT DCS Summer Conference, 14 (1), 437-440."
+
+      - title: ”[DC-04] Multi-output Neural Network Model Combining Classification and Regression in Software Defect Prediction”
+        link: "#"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Suntae Kim
+        conference: "Korea Computer Congress (KCC 2021)"
+
+      - title: ”[DC-03] Comparative Study of Generative Adversarial Network models for Software Defect Prediction”
+        link: "#"
+        authors: jiwon Choi, <b>Jaewook Lee</b>, Duksan Ryu and Suntae Kim
+        conference: "Korea Science Congress (KSC 2020), pp. 171-173"
+
+      - title: ”[DC-02] Decision Tree parameter optimization based on genetic algorithm for software defect prediction”
+        link: "#"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Suntae Kim
+        conference: "Korea Science Congress (KSC 2020), pp. 180-182"
+
+      - title: ”[DC-01] Hyperparameter Optimization in Automotive Software Fault Prediction Using Genetic Algorithm”
+        link: "#"
+        authors: <b>Jaewook Lee</b>, Jiwon Choi, Duksan Ryu and Suntae Kim
+        conference: "Korea Computer Congress (KCC 2020), pp. 272-274"
 
 footer: >
     Jaewook Lee <i class="fas fa-star"></i> <a href="mailto:jaewook_lee@outlook.com" target="_blank" rel="nofollow">jaewook_lee@outlook.com</a>

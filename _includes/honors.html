@@ -12,9 +12,9 @@
   {% for honor in honors.awards %}
   <div class="item">
     {% if publication.link %}
-        <li><a href="{{ honor.link }}">{{ honor.title }}</a></li>
+        <li style="margin-bottom: 11px; font-size: 15px;"><a href="{{ honor.link }}">{{ honor.title }}</a></li>
     {% else %}
-        <li>{{ honor.title }}</li>
+        <li style="margin-bottom: 11px; font-size: 15px;">{{ honor.title }}</li>
     {% endif %}
   </div><!--//item-->
   {% endfor %}

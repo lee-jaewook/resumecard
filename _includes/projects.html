@@ -26,9 +26,12 @@
         {{ project.title }}
         {% endif %}
       </span>
+      <div style="line-height:50%; "> <!-- 하위 줄높이를 50%만큼 적게 설정 -->
+        <br>
+      </div>
 
       {% if project.tagline %}
-      - <span class="project-tagline">{{ project.tagline }}</span>
+        <span class="project-tagline">{{ project.tagline | markdownify }}</span>
       {% endif %}
 
     </div><!--//item-->
