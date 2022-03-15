@@ -96,7 +96,7 @@ experiences:
       time: 2021년 12월 - Present
       company: ML Lab, Pohang University of Science and Technology
       details: |
-        - 지도 교수 : <b>[안성수 교수님](https://sites.google.com/view/sungsooahn0215/home)</b>
+        - 지도 교수 : [안성수 교수님](https://sites.google.com/view/sungsooahn0215/home)
         - 기술 스택 : <mark>Python</mark> <mark>Pytorch</mark> <mark>tensorflow</mark>
         - 연구 분야 
           - Machine Learning
@@ -106,7 +106,7 @@ experiences:
       time: 2019년 12월 - 2020년 11월
       company: AI&SE Lab, Jeonbuk National University
       details: |
-        - 지도 교수 : <b>[류덕산 교수님](https://sites.google.com/view/aiselabjbnu)</b>
+        - 지도 교수 : [류덕산 교수님](https://sites.google.com/view/aiselabjbnu)
         - 기술 스택 : <mark>Python</mark> <mark>Java</mark> <mark>Pytorch</mark> <mark>tensorflow</mark>
         - 연구 분야 
           - Machine Learning
